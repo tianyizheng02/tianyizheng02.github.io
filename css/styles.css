@@ -533,15 +533,17 @@ footer {
     margin: 0 0 15px 0
 }
 
-.education-block h5 {
+.courses {
 	text-align: center;
+}
+
+.education-block h5 {
 	text-decoration: underline;
 	margin-bottom: 0;
 	color: #74808a;
 }
 
 .education-block .courses ul {
-	text-align: center;
 	list-style-type: none;
 	padding: 0;
 }
