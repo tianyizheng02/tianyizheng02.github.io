@@ -1,3 +1,4 @@
+<!--
 <!DOCTYPE html>
 <html lang="en-US">
 <head>
@@ -18,17 +19,9 @@
   <nav>
     <a href="#top">Tianyi Zheng</a>
     <a href="#about">About</a>
-    <!--<a href="#experience">Experience</a>-->
-    <!--<a href="#education">Education</a>-->
     <a href="#projects">Projects</a>
     <a href="#skills">Skills</a>
   </nav>
-
-  <!--
-  <div>
-    <p>Hey there! My name is Tianyi Zheng, and I'm an undergraduate Computer Science student at the University of Pittsburgh. This site is still under construction, so please give it some time.</p>
-  </div>
-  -->
 
   <div id="links">
     <a href="mailto:tianyizheng02@gmail.com">
@@ -53,18 +46,6 @@
     <p>Hey there! My name is Tianyi Zheng, and welcome to my personal site. I'm an undergraduate Computer Science student at the University of Pittsburgh who's passionate about data science, artificial intelligence, and machine learning. I'm also an aspiring software engineer who loves tackling tough problems in my work and my studies.</p>
   </div>
 
-  <!--
-  <div id="experience">
-    
-  </div>
-  -->
-
-  <!--
-  <div id="education">
-    
-  </div>
-  -->
-
   <div id="projects">
     <h3>Projects</h3>
     <ul>
@@ -87,4 +68,199 @@
     </ul>
   </div>
 </body>
+</html>
+-->
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Tianyi Zheng</title>
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap">
+  <link rel="stylesheet" href="libs/font-awesome/css/font-awesome.min.css">
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/styles.css" rel="stylesheet">
+</head>
+
+<body>
+  <div id="body-overlay">
+    <div id="mobile-menu-open" class="shadow-large">
+        <i class="fa fa-bars" aria-hidden="true"></i>
+    </div>
+    <!-- End #mobile-menu-toggle -->
+    <header>
+        <div id="mobile-menu-close">
+            <span>Close</span> <i class="fa fa-times" aria-hidden="true"></i>
+        </div>
+        <ul id="menu" class="shadow">
+            <li>
+                <a href="#about">About</a>
+            </li>
+            <li>
+                <a href="#education">Education</a>
+            </li>
+            <li>
+                <a href="#projects">Projects</a>
+            </li>
+            <li>
+                <a href="#skills">Skills</a>
+            </li>
+        </ul>
+    </header>
+    <!-- End header -->
+
+    <div id="lead">
+        <div id="lead-content">
+            <h1>Tianyi Zheng</h1>
+            <h2>Computer Science Student at the University of Pittsburgh</h2>
+            <a href="mailto:tianyizheng02@gmail.com" class="btn-rounded-white">Email</a>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="https://linkedin.com/in/tianyizheng02" class="btn-rounded-white">LinkedIn</a>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="https://github.com/tianyizheng02" class="btn-rounded-white">GitHub</a>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="tianyi-zheng-resume.pdf" class="btn-rounded-white">Resume</a>
+        </div>
+        <!-- End #lead-content -->
+
+        <div id="lead-overlay"></div>
+
+        <div id="lead-down">
+            <span>
+                <i class="fa fa-chevron-down" aria-hidden="true"></i>
+            </span>
+        </div>
+        <!-- End #lead-down -->
+    </div>
+    <!-- End #lead -->
+
+    <div id="about" class="light">
+        <div class="container">
+            <div class="row">
+                <div>
+                    <h2 class="heading">About Me</h2>
+                    <br>
+                    <img src="images/me.jpeg" width="300"/> 
+                    <br>
+                </div>
+                <div>
+                  <p>Hey there! My name is Tianyi Zheng, and welcome to my personal site.</p>
+                  <p>I'm an undergraduate Computer Science student at the University of Pittsburgh who's passionate about data science, artificial intelligence, and machine learning. I'm also an aspiring software engineer who loves tackling tough problems in my work and my studies.</p>
+                  <p>In my free time, I play the piano, learn new languages, and hang out with friends. You will often find me working on personal projects and/or banging my head against my desk as I attempt to debug the absolute abomination that is my code.</p>
+                </div>
+                <div class="col-md-9">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End #about -->
+
+    <div id="education">
+        <h2 class="heading">Education</h2>
+        <div class="education-block">
+            <h3>University of Pittsburgh</h3>
+            <span class="education-date">Aug 2020 - Apr 2024</span>
+            <h4>Bachelor of Science in Computer Science</h4>
+            <p>Majoring in Computer Science for my undergraduate degree in the University of Pittsburgh's School of Computing and Information</p>
+        </div>
+        <!-- End .education-block -->
+    </div>
+    <!-- End #education -->
+
+    <div id="projects" class="light">
+        <h2 class="heading">Projects</h2>
+        <div class="container">
+            <div class="row">
+                <div class="project shadow-large">
+                    <div class="project-image">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/e/e5/Gospers_glider_gun.gif" width="300" />
+                    </div>
+                    <!-- End .project-image -->
+                    <div class="project-info">
+                        <h3>Game of Life</h3>
+                        <p>
+                          Implementation of <a href="https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life">Conway's Game of Life</a> in a web browser using the p5.js Javascript library
+                        </p>
+                        <!--<a href="#">View Project</a>-->
+                    </div>
+                    <!-- End .project-info -->
+                </div>
+                <!-- End .project -->
+
+                <div class="project shadow-large">
+                    <div class="project-image">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/8/82/Huffman_tree_2.svg" width="300"/>
+                    </div>
+                    <!-- End .project-image -->
+                    <div class="project-info">
+                        <h3>Huffman Coding</h3>
+                        <p>
+                          Implementation of a <a href="https://en.wikipedia.org/wiki/Huffman_coding">Huffman Coding</a> algorithm in C++ to compress text files by up to 40%
+                        </p>
+                        <!--<a href="#">View Project</a>-->
+                    </div>
+                    <!-- End .project-info -->
+                </div>
+                <!-- End .project -->
+            </div>
+        </div>
+    </div>
+    <!-- End #projects -->
+    <div id="skills">
+        <h2 class="heading">Skills</h2>
+        <ul>
+          <li class="shadow-large">C++</li>
+          <li class="shadow-large">Java</li>
+          <li class="shadow-large">Python</li>
+          <li class="shadow-large">C</li>
+          <li class="shadow-large">HTML/CSS</li>
+          <br>
+          <li class="shadow-large">Git/GitHub</li>
+          <li class="shadow-large">LaTeX</li>
+          <li class="shadow-large">Vim</li>
+        </ul>
+    </div>
+    <!-- End #skills -->
+
+    <footer class="light">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-5 copyright">
+                    <p>
+                    Made by Tianyi Zheng using <a href="https://github.com/RyanFitzgerald/devportfolio">this</a> template
+                    </p>
+                </div>
+                <div class="col-sm-2 top">
+                    <span id="to-top">
+                        <i class="fa fa-chevron-up" aria-hidden="true"></i>
+                    </span>
+                </div>
+                <div class="col-sm-5 social">
+                    <ul>
+                        <li>
+                            <a href="mailto:tianyizheng02@gmail.com" target="_blank"><i class="fa fa-envelope" aria-hidden="true"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://linkedin.com/in/tianyizheng02" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://github.com/tianyizheng02" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- End footer -->
+
+  </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="js/scripts.min.js"></script>
+</body>
+
 </html>
