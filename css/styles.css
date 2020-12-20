@@ -891,6 +891,14 @@ footer {
 }
 
 @media only screen and (max-width: 480px) {
+    body {
+        background: #3498db;
+    }
+
+    #lead {
+        background: #3498db;
+    }
+    
     #lead-content h1 {
         font-size: 1.5em
     }
