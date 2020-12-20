@@ -229,8 +229,6 @@ footer {
 }
 
 .links {
-    padding-left: 20px;
-    padding-right: 20px;
     justify-content: space-between;
 }
 
@@ -300,6 +298,8 @@ footer {
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 #lead-content h1, #lead-content h2 {
@@ -388,8 +388,8 @@ footer {
 #about p {
 	text-align: center;
 	padding-top: 25px;
-	padding-left: 200px;
-	padding-right: 200px;
+	padding-left: 20%;
+	padding-right: 20%;
     color: #74808a;
     margin: 0
 }
