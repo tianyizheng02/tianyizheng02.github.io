@@ -15,11 +15,10 @@
 body {
     font-family: 'Montserrat', sans-serif;
     font-size: 18px;
-	background-image: url(../images/background.jpeg);
+	background: url(../images/background.jpeg);
 	background-attachment: fixed;
 	background-repeat: no-repeat;
     background-size: cover;
-    min-height: 100%;
 }
 
 #body-overlay {
