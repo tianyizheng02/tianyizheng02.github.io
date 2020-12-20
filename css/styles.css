@@ -854,7 +854,8 @@ footer {
     }
 
     #lead-content h2 {
-        font-size: 1.3em
+        font-size: 1.3em;
+        color: #ffffff;
     }
 
     #lead-content a {
@@ -892,11 +893,31 @@ footer {
 
 @media only screen and (max-width: 480px) {
     body {
-        background: #3498db;
+        background: #f2f2f5;
+    }
+
+    .light {
+        background: #ffffff;
+    }
+
+    #education h2 {
+        color: #374054;
+    }
+
+    #skills h2 {
+        color: #374054;
+    }
+
+    #body-overlay {
+        background: none;
     }
 
     #lead {
         background: #3498db;
+    }
+
+    #lead-overlay {
+        background: none;
     }
     
     #lead-content h1 {
@@ -915,5 +936,13 @@ footer {
     .links {
         display: flex;
         flex-direction: column;
+    }
+
+    .project-info {
+        background: #f2f2f5;
+    }
+
+    #skills li {
+        background: #ffffff;
     }
 }
