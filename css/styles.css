@@ -228,6 +228,12 @@ footer {
     color: #3498db
 }
 
+.links {
+    padding-left: 20px;
+    padding-right: 20px;
+    justify-content: space-between;
+}
+
 .btn-rounded-white {
     display: inline-block;
     color: #fff;
@@ -293,7 +299,7 @@ footer {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    text-align: center
+    text-align: center;
 }
 
 #lead-content h1, #lead-content h2 {
@@ -895,5 +901,9 @@ footer {
         font-size: 0.9em;
         padding: 5px 10px
     }
-}
 
+    .links {
+        display: flex;
+        flex-direction: column;
+    }
+}
