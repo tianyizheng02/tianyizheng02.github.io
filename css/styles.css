@@ -554,6 +554,7 @@ footer {
 .education-block .courses ul {
 	list-style-type: none;
 	padding: 0;
+	column-count: 2;
 }
 
 .education-block p, .education-block ul {
@@ -937,6 +938,10 @@ footer {
         display: flex;
         flex-direction: column;
     }
+
+	.education-block .courses ul {
+		column-count: 1;
+	}
 
     .project-info {
         background: #f2f2f5;
