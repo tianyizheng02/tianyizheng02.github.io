@@ -386,6 +386,9 @@ footer {
   color: #374054;
 }
 
+#about img {
+  border-radius: 50%;
+}
 
 #about p {
   text-align: center;
