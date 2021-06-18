@@ -573,25 +573,23 @@ footer {
 }
 
 .project {
-  position: relative;
-  max-width: 900px;
+  display: flex;
+  align-items: center;
+  max-width: 800px;
+  height: auto;
   margin: 0 auto 30px auto;
-  overflow: scroll;
   background: var(--light-bg-color);
   border-radius: var(--round-corner-radius);
 }
 
-.project-img {
-  float: left;
-  width: 300px;
+.project img {
+  flex: 0.4;
+  overflow: hidden;
 }
 
 .project-info {
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  margin-left: 300px;
-  padding: 30px;
+  flex: 0.6;
+  margin: 30px;
 }
 
 .project-info h3 {
