@@ -391,8 +391,8 @@ footer {
 }
 
 #me-pic {
-  border-radius: 50%;
-  width: 300px;
+  clip-path: circle();
+  width: 500px;
 }
 
 #about p {
